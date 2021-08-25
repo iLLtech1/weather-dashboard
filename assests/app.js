@@ -1,5 +1,5 @@
 let apiKey = "01269a22236d927374d59fe33d4e1c3c"
-let searchHistroy = JSON.parse(window.localStorage.getItem('search-history')) || [];
+let searchHistory = JSON.parse(window.localStorage.getItem('search-history')) || [];
 let apiRoot = 'https://api.openweathermap.org'
 // let currentDate = moment().format('L');
 
